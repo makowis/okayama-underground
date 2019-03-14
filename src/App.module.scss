@@ -1,3 +1,7 @@
+@mixin link-animation($flame: 20s) {
+  animation: spin infinite $flame linear;
+}
+
 .app {
   text-align: center;
 }
@@ -13,9 +17,17 @@
   color: white;
 }
 
-.link {
-  animation: Link-spin infinite 20s linear;
+%link-style {
   color: #61dafb;
+  position: absolute;
+  font-size: 80px;
+}
+
+@for $i from 1 through 10  {
+  .link#{$i} {
+    animation: Link-spin infinite #{$i * 0.5}s linear;
+    @extend %link-style;
+  }
 }
 
 @keyframes Link-spin {
