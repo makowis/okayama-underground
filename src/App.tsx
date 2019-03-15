@@ -17,9 +17,10 @@ class App extends Component {
             styles.link8,
             styles.link9,
             styles.link10
-          ].map(value => {
+          ].map((value, index) => {
             return (
               <a
+                key={index}
                 className={value}
                 href="https://www.yahoo.co.jp/"
                 target="_blank"
