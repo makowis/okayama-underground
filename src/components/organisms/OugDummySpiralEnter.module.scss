@@ -2,10 +2,21 @@
   animation: spin infinite $flame linear;
 }
 
+.container {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  margin: 120px 0;
+}
+
 %link-style {
   color: #61dafb;
   position: absolute;
   font-size: 80px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 @for $i from 1 through 10 {
