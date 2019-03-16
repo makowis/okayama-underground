@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import styles from './App.module.scss';
+import OugDummyEnterLink from './components/atoms/OugDummyEnterLink';
 
 class App extends Component {
   render() {
@@ -17,18 +18,8 @@ class App extends Component {
             styles.link8,
             styles.link9,
             styles.link10
-          ].map((value) => {
-            return (
-              <a
-                key={value}
-                className={value}
-                href="https://www.yahoo.co.jp/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                ENTER
-              </a>
-            );
+          ].map(value => {
+            return <OugDummyEnterLink key={value} className={value} />;
           })}
         </header>
       </div>
