@@ -1471,6 +1471,13 @@
   dependencies:
     "@types/react" "*"
 
+"@types/react-test-renderer@^16.8.1":
+  version "16.8.1"
+  resolved "https://registry.yarnpkg.com/@types/react-test-renderer/-/react-test-renderer-16.8.1.tgz#96f3ce45a3a41c94eca532a99103dd3042c9d055"
+  integrity sha512-8gU69ELfJGxzVWVYj4MTtuHxz9nO+d175XeQ1XrXXxesUBsB4KK6OCfzVhEX6leZWWBDVtMJXp/rUjhClzL7gw==
+  dependencies:
+    "@types/react" "*"
+
 "@types/react@*", "@types/react@16.8.8":
   version "16.8.8"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.8.8.tgz#4b60a469fd2469f7aa6eaa0f8cfbc51f6d76e662"
@@ -10181,7 +10188,7 @@ react-inspector@^2.3.0, react-inspector@^2.3.1:
     is-dom "^1.0.9"
     prop-types "^15.6.1"
 
-react-is@^16.7.0, react-is@^16.8.1:
+react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.4:
   version "16.8.4"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.4.tgz#90f336a68c3a29a096a3d648ab80e87ec61482a2"
   integrity sha512-PVadd+WaUDOAciICm/J1waJaSvgq+4rHE/K70j0PFqKhkTBsPv/82UGQJNXAngz1fOQLLxI6z1sEDmJDQhCTAA==
@@ -10295,6 +10302,16 @@ react-syntax-highlighter@^8.0.1:
     lowlight "~1.9.1"
     prismjs "^1.8.4"
     refractor "^2.4.1"
+
+react-test-renderer@^16.8.4:
+  version "16.8.4"
+  resolved "https://registry.yarnpkg.com/react-test-renderer/-/react-test-renderer-16.8.4.tgz#abee4c2c3bf967a8892a7b37f77370c5570d5329"
+  integrity sha512-jQ9Tf/ilIGSr55Cz23AZ/7H3ABEdo9oy2zF9nDHZyhLHDSLKuoILxw2ifpBfuuwQvj4LCoqdru9iZf7gwFH28A==
+  dependencies:
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
+    react-is "^16.8.4"
+    scheduler "^0.13.4"
 
 react-textarea-autosize@^7.0.4:
   version "7.1.0"

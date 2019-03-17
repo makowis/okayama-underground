@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<div
+  className="app"
+>
+  <header
+    className="header"
+  >
+    <h1
+      className="h1"
+    >
+      岡山アンダーグラウンド
+    </h1>
+  </header>
+  <main>
+    <div
+      className="container"
+    >
+      <a
+        className="link1"
+        href="https://www.yahoo.co.jp/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        ENTER
+      </a>
+      <a
+        className="link2"
+        href="https://www.yahoo.co.jp/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        ENTER
+      </a>
+      <a
+        className="link3"
+        href="https://www.yahoo.co.jp/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        ENTER
+      </a>
+      <a
+        className="link4"
+        href="https://www.yahoo.co.jp/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        ENTER
+      </a>
+      <a
+        className="link5"
+        href="https://www.yahoo.co.jp/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        ENTER
+      </a>
+      <a
+        className="link6"
+        href="https://www.yahoo.co.jp/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        ENTER
+      </a>
+      <a
+        className="link7"
+        href="https://www.yahoo.co.jp/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        ENTER
+      </a>
+      <a
+        className="link8"
+        href="https://www.yahoo.co.jp/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        ENTER
+      </a>
+      <a
+        className="link9"
+        href="https://www.yahoo.co.jp/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        ENTER
+      </a>
+      <a
+        className="link10"
+        href="https://www.yahoo.co.jp/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        ENTER
+      </a>
+    </div>
+  </main>
+</div>
+`;
