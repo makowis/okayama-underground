@@ -16,3 +16,4 @@
 
 [![Build Status](https://travis-ci.com/makowis/okayama-underground.svg?branch=master)](https://travis-ci.com/makowis/okayama-underground)
 [![CodeFactor](https://www.codefactor.io/repository/github/makowis/okayama-underground/badge)](https://www.codefactor.io/repository/github/makowis/okayama-underground)
+[![codecov](https://codecov.io/gh/makowis/okayama-underground/branch/master/graph/badge.svg)](https://codecov.io/gh/makowis/okayama-underground)
