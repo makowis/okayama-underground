@@ -7,7 +7,7 @@ cache:
 script:
   - yarn global add codecov
   - yarn test
-  - yarn codecov
+  - codecov
   - yarn build
 deploy:
   provider: firebase
