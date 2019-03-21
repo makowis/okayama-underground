@@ -5,8 +5,8 @@ cache:
   directories:
   - node_modules
 script:
-  - npm test
-  - npm build
+  - yarn test
+  - yarn build
 deploy:
   provider: firebase
   skip_cleanup: true
