@@ -11,3 +11,7 @@
 そう思って、このスレを立てたんだ。
 
 じゃあ、注文を聞こうか。
+
+------------------------
+
+[![Build Status](https://travis-ci.com/makowis/okayama-underground.svg?branch=master)](https://travis-ci.com/makowis/okayama-underground)
