@@ -1140,7 +1140,7 @@
     prop-types "^15.6.2"
     qs "^6.5.2"
 
-"@storybook/addon-storyshots@^5.0.3":
+"@storybook/addon-storyshots@5.0.3":
   version "5.0.3"
   resolved "https://registry.yarnpkg.com/@storybook/addon-storyshots/-/addon-storyshots-5.0.3.tgz#7d21e29d58b94e02665668d9fa6b9de325ccfacd"
   integrity sha512-UVw7BWgCsVQ/UEXVDvO2tZ/re6ZRbflxy71vRzzaekv947LYOU2PzbFTbw7OZda8TRMG+aur5fIBdbPDAp+aZA==
@@ -1589,7 +1589,7 @@
     "@types/prop-types" "*"
     csstype "^2.2.0"
 
-"@types/storybook__react@^4.0.1":
+"@types/storybook__react@4.0.1":
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/@types/storybook__react/-/storybook__react-4.0.1.tgz#b6320c9d027b8ee7ef1445fef8b4cba196d48ace"
   integrity sha512-knkZErqv8Iy2QbebqBa5tsy2itIMKdO6bcQ7C19nmgTc+j1pnQhXCGcVyARzAQ1/NAuSYudSWQAKG+plgK7hyQ==
@@ -10835,7 +10835,7 @@ request@^2.87.0, request@^2.88.0:
     tunnel-agent "^0.6.0"
     uuid "^3.3.2"
 
-require-context.macro@^1.0.4:
+require-context.macro@1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/require-context.macro/-/require-context.macro-1.0.4.tgz#c2d9140971cc7e54f6a7b69bad41849d8bef493b"
   integrity sha512-eoHxT3FeMRcq7cJqJAm+vAgWAMjIWiSOS87zNDSB6wqapkcqosqx7pQhQYdkTrAOJAU1aMMOGIQJZ4jUv3VljA==
