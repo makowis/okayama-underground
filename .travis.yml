@@ -5,7 +5,9 @@ cache:
   directories:
   - node_modules
 script:
-  - yarn test
+  - yarn global add codecov
+  - yarn test --coverage --bail
+  - codecov
   - yarn build
 deploy:
   provider: firebase
