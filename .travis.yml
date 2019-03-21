@@ -6,7 +6,7 @@ cache:
   - node_modules
 script:
   - yarn global add codecov
-  - yarn test
+  - yarn test --coverage --bail
   - codecov
   - yarn build
 deploy:
