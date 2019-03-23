@@ -1629,6 +1629,33 @@
   resolved "https://registry.yarnpkg.com/@types/webpack-env/-/webpack-env-1.13.9.tgz#a67287861c928ebf4159a908d1fb1a2a34d4097a"
   integrity sha512-p8zp5xqkly3g4cCmo2mKOHI9+Z/kObmDj0BmjbDDJQlgDTiEGTbm17MEwTAusV6XceCy+bNw9q/ZHXHyKo3zkg==
 
+"@typescript-eslint/eslint-plugin@1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-1.5.0.tgz#85c509bcfc2eb35f37958fa677379c80b7a8f66f"
+  integrity sha512-TZ5HRDFz6CswqBUviPX8EfS+iOoGbclYroZKT3GWGYiGScX0qo6QjHc5uuM7JN920voP2zgCkHgF5SDEVlCtjQ==
+  dependencies:
+    "@typescript-eslint/parser" "1.5.0"
+    "@typescript-eslint/typescript-estree" "1.5.0"
+    requireindex "^1.2.0"
+    tsutils "^3.7.0"
+
+"@typescript-eslint/parser@1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-1.5.0.tgz#a96114d195dff2a49534e4c4850fb676f905a072"
+  integrity sha512-pRWTnJrnxuT0ragdY26hZL+bxqDd4liMlftpH2CBlMPryOIOb1J+MdZuw6R4tIu6bWVdwbHKPTs+Q34LuGvfGw==
+  dependencies:
+    "@typescript-eslint/typescript-estree" "1.5.0"
+    eslint-scope "^4.0.0"
+    eslint-visitor-keys "^1.0.0"
+
+"@typescript-eslint/typescript-estree@1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/typescript-estree/-/typescript-estree-1.5.0.tgz#986b356ecdf5a0c3bc9889d221802149cf5dbd4e"
+  integrity sha512-XqR14d4BcYgxcrpxIwcee7UEjncl9emKc/MgkeUfIk2u85KlsGYyaxC7Zxjmb17JtWERk/NaO+KnBsqgpIXzwA==
+  dependencies:
+    lodash.unescape "4.0.1"
+    semver "5.5.0"
+
 "@webassemblyjs/ast@1.7.11":
   version "1.7.11"
   resolved "https://registry.yarnpkg.com/@webassemblyjs/ast/-/ast-1.7.11.tgz#b988582cafbb2b095e8b556526f30c90d057cace"
@@ -3666,6 +3693,11 @@ config-chain@^1.1.12:
     ini "^1.3.4"
     proto-list "~1.2.1"
 
+confusing-browser-globals@2.0.0-next.b0cbf2ca:
+  version "2.0.0-next.b0cbf2ca"
+  resolved "https://registry.yarnpkg.com/confusing-browser-globals/-/confusing-browser-globals-2.0.0-next.b0cbf2ca.tgz#04833188aff5c063ed9236245bbd33d80a586421"
+  integrity sha512-RChv9lKlg9Dwr0JX0ZrmGjvO6Iy12uyZgYO9U0zhAZ1g7WEv8XT0UUt+GiZidH1yjIBqWr2afUMIWFSjGRG6mQ==
+
 confusing-browser-globals@^1.0.6:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/confusing-browser-globals/-/confusing-browser-globals-1.0.6.tgz#5918188e8244492cdd46d6be1cab60edef3063ce"
@@ -4706,6 +4738,13 @@ escodegen@^1.9.1:
   optionalDependencies:
     source-map "~0.6.1"
 
+eslint-config-react-app@4.0.0-next.b0cbf2ca:
+  version "4.0.0-next.b0cbf2ca"
+  resolved "https://registry.yarnpkg.com/eslint-config-react-app/-/eslint-config-react-app-4.0.0-next.b0cbf2ca.tgz#d8479babd1a8503b6a23b0b2131c1e0fc505c7cc"
+  integrity sha512-qv0pP7Rafv0hhPFCzr4cn3AAV1rQ3h8rUuwtEm51/QYsxqqGzUgm4VHH4Vd66FVEeYK17NJP5Xqv6+YQJTGr6A==
+  dependencies:
+    confusing-browser-globals "2.0.0-next.b0cbf2ca"
+
 eslint-config-react-app@^3.0.8:
   version "3.0.8"
   resolved "https://registry.yarnpkg.com/eslint-config-react-app/-/eslint-config-react-app-3.0.8.tgz#6f606828ba30bafee7d744c41cd07a3fea8f3035"
@@ -4776,6 +4815,11 @@ eslint-plugin-jsx-a11y@6.1.2:
     emoji-regex "^6.5.1"
     has "^1.0.3"
     jsx-ast-utils "^2.0.1"
+
+eslint-plugin-react-hooks@1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-1.5.0.tgz#cdd958cfff55bd5fa4f84db90d1490fb5ca4ae2b"
+  integrity sha512-iwDuWR2ReRgvJsNm8fXPtTKdg78IVQF8I4+am3ntztPf/+nPnWZfArFu6aXpaC75/iCYRrkqI8nPCYkxJstmpA==
 
 eslint-plugin-react@7.12.4:
   version "7.12.4"
@@ -7801,6 +7845,11 @@ lodash.throttle@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/lodash.throttle/-/lodash.throttle-4.1.1.tgz#c23e91b710242ac70c37f1e1cda9274cc39bf2f4"
   integrity sha1-wj6RtxAkKscMN/HhzaknTMOb8vQ=
+
+lodash.unescape@4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/lodash.unescape/-/lodash.unescape-4.0.1.tgz#bf2249886ce514cda112fae9218cdc065211fc9c"
+  integrity sha1-vyJJiGzlFM2hEvrpIYzcBlIR/Jw=
 
 lodash.uniq@^4.5.0:
   version "4.5.0"
@@ -10855,6 +10904,11 @@ require-main-filename@^1.0.1:
   resolved "https://registry.yarnpkg.com/require-main-filename/-/require-main-filename-1.0.1.tgz#97f717b69d48784f5f526a6c5aa8ffdda055a4d1"
   integrity sha1-l/cXtp1IeE9fUmpsWqj/3aBVpNE=
 
+requireindex@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/requireindex/-/requireindex-1.2.0.tgz#3463cdb22ee151902635aa6c9535d4de9c2ef1ef"
+  integrity sha512-L9jEkOi3ASd9PYit2cwRfyppc9NoABujTP8/5gFcbERmo5jUoAKovIC3fsF17pkTnGsrByysqX+Kxd2OTNI1ww==
+
 requires-port@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/requires-port/-/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
@@ -11102,6 +11156,11 @@ semver-compare@^1.0.0:
   version "5.6.0"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.6.0.tgz#7e74256fbaa49c75aa7c7a205cc22799cac80004"
   integrity sha512-RS9R6R35NYgQn++fkDWaOmqGoj4Ek9gGs+DPxNUZKuwE183xjJroKvyo1IzVFeXvUrvmALy6FWD5xrdJT25gMg==
+
+semver@5.5.0:
+  version "5.5.0"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-5.5.0.tgz#dc4bbc7a6ca9d916dee5d43516f0092b58f7b8ab"
+  integrity sha512-4SJ3dm0WAwWy/NVeioZh5AntkdJoWKxHxcmyP622fOkgHa4z3R0TdBJICINyaSDE6uNwVc8gZr+ZinwZAH4xIA==
 
 semver@~5.3.0:
   version "5.3.0"
@@ -12133,10 +12192,17 @@ ts-pnp@^1.0.0:
   resolved "https://registry.yarnpkg.com/ts-pnp/-/ts-pnp-1.0.1.tgz#fde74a6371676a167abaeda1ffc0fdb423520098"
   integrity sha512-Zzg9XH0anaqhNSlDRibNC8Kp+B9KNM0uRIpLpGkGyrgRIttA7zZBhotTSEoEyuDrz3QW2LGtu2dxuk34HzIGnQ==
 
-tslib@^1.9.0:
+tslib@^1.8.1, tslib@^1.9.0:
   version "1.9.3"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.9.3.tgz#d7e4dd79245d85428c4d7e4822a79917954ca286"
   integrity sha512-4krF8scpejhaOgqzBEcGM7yDIEfi0/8+8zDRZhNZZ2kjmHJ4hv3zCbQWxoJGz1iw5U0Jl0nma13xzHXcncMavQ==
+
+tsutils@^3.7.0:
+  version "3.9.1"
+  resolved "https://registry.yarnpkg.com/tsutils/-/tsutils-3.9.1.tgz#2a40dc742943c71eca6d5c1994fcf999956be387"
+  integrity sha512-hrxVtLtPqQr//p8/msPT1X1UYXUjizqSit5d9AQ5k38TcV38NyecL5xODNxa73cLe/5sdiJ+w1FqzDhRBA/anA==
+  dependencies:
+    tslib "^1.8.1"
 
 tty-browserify@0.0.0:
   version "0.0.0"

@@ -25,6 +25,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "lint": "eslint . --ext .jsx,.js,.ts,.tsx",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006",
@@ -53,7 +54,10 @@
     "@storybook/react": "5.0.3",
     "@types/react-test-renderer": "16.8.1",
     "@types/storybook__react": "4.0.1",
+    "@typescript-eslint/eslint-plugin": "1.5.0",
     "babel-loader": "8.0.5",
+    "eslint-config-react-app": "4.0.0-next.b0cbf2ca",
+    "eslint-plugin-react-hooks": "1.5.0",
     "react-test-renderer": "16.8.4",
     "require-context.macro": "1.0.4"
   }
