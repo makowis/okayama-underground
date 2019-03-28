@@ -11,8 +11,8 @@
     "lint-staged": "8.1.5",
     "node-sass": "4.11.0",
     "prettier": "1.16.4",
-    "react": "16.8.5",
-    "react-dom": "16.8.5",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
     "react-scripts": "2.1.8",
     "typescript": "3.3.4000"
   },
@@ -58,7 +58,7 @@
     "babel-loader": "8.0.5",
     "eslint-config-react-app": "4.0.0-next.b0cbf2ca",
     "eslint-plugin-react-hooks": "1.6.0",
-    "react-test-renderer": "16.8.5",
+    "react-test-renderer": "16.8.6",
     "require-context.macro": "1.0.4"
   }
 }
