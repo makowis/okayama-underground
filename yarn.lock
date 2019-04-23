@@ -4196,11 +4196,6 @@ config-chain@^1.1.12:
     ini "^1.3.4"
     proto-list "~1.2.1"
 
-confusing-browser-globals@2.0.0-next.b0cbf2ca:
-  version "2.0.0-next.b0cbf2ca"
-  resolved "https://registry.yarnpkg.com/confusing-browser-globals/-/confusing-browser-globals-2.0.0-next.b0cbf2ca.tgz#04833188aff5c063ed9236245bbd33d80a586421"
-  integrity sha512-RChv9lKlg9Dwr0JX0ZrmGjvO6Iy12uyZgYO9U0zhAZ1g7WEv8XT0UUt+GiZidH1yjIBqWr2afUMIWFSjGRG6mQ==
-
 confusing-browser-globals@^1.0.7:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/confusing-browser-globals/-/confusing-browser-globals-1.0.7.tgz#5ae852bd541a910e7ffb2dbb864a2d21a36ad29b"
@@ -5251,14 +5246,7 @@ escodegen@^1.11.0, escodegen@^1.9.1:
   optionalDependencies:
     source-map "~0.6.1"
 
-eslint-config-react-app@4.0.0-next.b0cbf2ca:
-  version "4.0.0-next.b0cbf2ca"
-  resolved "https://registry.yarnpkg.com/eslint-config-react-app/-/eslint-config-react-app-4.0.0-next.b0cbf2ca.tgz#d8479babd1a8503b6a23b0b2131c1e0fc505c7cc"
-  integrity sha512-qv0pP7Rafv0hhPFCzr4cn3AAV1rQ3h8rUuwtEm51/QYsxqqGzUgm4VHH4Vd66FVEeYK17NJP5Xqv6+YQJTGr6A==
-  dependencies:
-    confusing-browser-globals "2.0.0-next.b0cbf2ca"
-
-eslint-config-react-app@^4.0.0:
+eslint-config-react-app@4.0.0, eslint-config-react-app@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/eslint-config-react-app/-/eslint-config-react-app-4.0.0.tgz#1651f44b3830d863817af6ebed0916193aa870c3"
   integrity sha512-SeFxaI+0NAzWPFAI9AT+Vp9Xe2u5RCnn0JVEXkE338HgoPujc38Bc0upCJw4BWmavvIN/ODmE6EuzHoAEn3ozw==
