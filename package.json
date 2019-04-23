@@ -54,7 +54,7 @@
     "@storybook/react": "5.0.10",
     "@types/react-test-renderer": "16.8.1",
     "@types/storybook__react": "4.0.1",
-    "@typescript-eslint/eslint-plugin": "1.6.0",
+    "@typescript-eslint/eslint-plugin": "1.7.0",
     "babel-loader": "8.0.5",
     "eslint-config-react-app": "4.0.0-next.b0cbf2ca",
     "eslint-plugin-react-hooks": "1.6.0",
