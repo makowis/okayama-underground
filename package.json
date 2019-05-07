@@ -46,7 +46,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "@babel/core": "7.4.3",
+    "@babel/core": "7.4.4",
     "@storybook/addon-actions": "5.0.10",
     "@storybook/addon-links": "5.0.10",
     "@storybook/addon-storyshots": "5.0.10",
