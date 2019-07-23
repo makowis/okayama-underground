@@ -11779,10 +11779,10 @@ request@^2.87.0, request@^2.88.0:
     tunnel-agent "^0.6.0"
     uuid "^3.3.2"
 
-require-context.macro@1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/require-context.macro/-/require-context.macro-1.0.4.tgz#c2d9140971cc7e54f6a7b69bad41849d8bef493b"
-  integrity sha512-eoHxT3FeMRcq7cJqJAm+vAgWAMjIWiSOS87zNDSB6wqapkcqosqx7pQhQYdkTrAOJAU1aMMOGIQJZ4jUv3VljA==
+require-context.macro@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/require-context.macro/-/require-context.macro-1.1.0.tgz#114735b663be004b3047e4f125e3b9a8cfb9cce1"
+  integrity sha512-D08BxSbi+KEvrMd4058zqlQdkop8gdKIbk4N/mwObxZ6Ap83rGPqazHEW3a67QKAZGYlNgjZDL+gJFCxS7oDqg==
 
 require-directory@^2.1.1:
   version "2.1.1"
