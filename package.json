@@ -46,7 +46,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "@babel/core": "7.5.0",
+    "@babel/core": "7.14.6",
     "@storybook/addon-actions": "5.1.10",
     "@storybook/addon-links": "5.1.10",
     "@storybook/addon-storyshots": "5.1.10",
@@ -55,7 +55,7 @@
     "@types/react-test-renderer": "16.9.0",
     "@types/storybook__react": "4.0.2",
     "@typescript-eslint/eslint-plugin": "1.13.0",
-    "babel-loader": "8.0.5",
+    "babel-loader": "8.2.2",
     "eslint-config-react-app": "4.0.1",
     "eslint-plugin-react-hooks": "2.1.1",
     "react-test-renderer": "16.8.6",
